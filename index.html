@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Full Stack Developer</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- CSS Personalizado -->
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+  <!-- Navbar Bootstrap -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-4" href="#inicio">Cecilia Ramos Alcatruz</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#hobbies">Hobbies</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Navegación Lateral -->
+  <nav class="side-nav d-none d-lg-block">
+    <a href="#inicio" class="active"></a>
+    <a href="#proyectos"></a>
+    <a href="#habilidades"></a>
+    <a href="#hobbies"></a>
+    <a href="#contacto"></a>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="inicio" class="hero-section d-flex align-items-center" style="margin-top: 56px;">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-7 text-dark mb-4 mb-lg-0">
+          <h1 class="display-2 fw-bold mb-3">
+            <span class="text-white">Full Stack</span><br>
+            Developer.
+          </h1>
+          <p class="lead mb-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum nisl quis nibh pulvinar, sagittis pretium dolor imperdiet.
+          </p>
+          <a href="#proyectos" class="btn btn-dark btn-lg rounded-pill px-5">Ver Proyectos</a>
+        </div>
+        <div class="col-lg-5 text-center">
+          <img src="assets/photo.jpg"
+               alt="Foto de perfil" class="hero-img rounded-3 shadow-lg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyectos -->
+  <section id="proyectos" class="py-5">
+    <div class="container py-5">
+      <h2 class="display-4 fw-bold text-end text-primary-custom mb-5">Proyectos</h2>
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <div class="card h-100 border-0 shadow card-hover">
+            <div class="card-body p-4">
+              <h3 class="h4 text-primary-custom fw-bold mb-3">Lorem ipsum dolor sit amet</h3>
+              <p class="text-muted">
+                Duis bibendum nisl quis nibh pulvinar, sagittis pretium dolor imperdiet. Nunc imperdiet rutrum ullamcorper.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-lg-5">
+          <div class="card h-100 border-0 shadow card-hover">
+            <div class="card-body p-4">
+              <h3 class="h4 text-primary-custom fw-bold mb-3">Consectetur adipiscing elit</h3>
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum nisl quis nibh pulvinar, sagittis pretium dolor imperdiet.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-lg-5" style="margin-top: 4rem !important;">
+          <div class="card h-100 border-0 shadow card-hover">
+            <div class="card-body p-4">
+              <h3 class="h4 text-primary-custom fw-bold mb-3">Duis bibendum nisl quis nibh</h3>
+              <p class="text-muted">
+                Nunc imperdiet rutrum ullamcorper. Aenean commodo magna non turpis feugiat dictum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Habilidades -->
+  <section id="habilidades" class="py-5 bg-primary-custom text-white">
+    <div class="container py-5">
+      <h2 class="display-4 fw-bold mb-5">Habilidades</h2>
+      <div class="row g-4">
+        <div class="col-lg-4 mt-lg-5" style="margin-top: 4rem !important;">
+          <div class="card h-100 bg-transparent border border-white border-2 text-white card-hover">
+            <div class="card-body p-4">
+              <h3 class="h4 fw-bold mb-3">Lorem ipsum dolor sit amet</h3>
+              <p>
+                Duis bibendum nisl quis nibh pulvinar, sagittis pretium dolor imperdiet. Nunc imperdiet rutrum ullamcorper.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-lg-5">
+          <div class="card h-100 bg-transparent border border-white border-2 text-white card-hover">
+            <div class="card-body p-4">
+              <h3 class="h4 fw-bold mb-3">Consectetur adipiscing elit</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum nisl quis nibh pulvinar, sagittis pretium dolor imperdiet.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card h-100 bg-transparent border border-white border-2 text-white card-hover">
+            <div class="card-body p-4">
+              <h3 class="h4 fw-bold mb-3">Duis bibendum nisl quis nibh</h3>
+              <p>
+                Nunc imperdiet rutrum ullamcorper. Aenean commodo magna non turpis feugiat dictum. Fusce tempus mi sem, id viverra lectus vestibulum eget.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hobbies -->
+  <section id="hobbies" class="py-5">
+    <div class="container py-5">
+      <h2 class="display-4 fw-bold text-end text-primary-custom mb-5">Hobbies</h2>
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <div class="card h-100 border-0 shadow card-hover">
+            <div class="card-body p-4">
+              <h3 class="h4 text-accent-custom fw-bold mb-3">📚 Lorem ipsum</h3>
+              <p class="text-muted">
+                Duis bibendum nisl quis nibh pulvinar, sagittis pretium dolor imperdiet. Nunc imperdiet rutrum ullamcorper.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-lg-5">
+          <div class="card h-100 border-0 shadow card-hover">
+            <div class="card-body p-4">
+              <h3 class="h4 text-accent-custom fw-bold mb-3">🎮 Dolor sit amet</h3>
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum nisl quis nibh pulvinar, sagittis pretium dolor imperdiet.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-lg-5" style="margin-top: 4rem !important;">
+          <div class="card h-100 border-0 shadow card-hover">
+            <div class="card-body p-4">
+              <h3 class="h4 text-accent-custom fw-bold mb-3">🏃 Consectetur</h3>
+              <p class="text-muted">
+                Nunc imperdiet rutrum ullamcorper. Aenean commodo magna non turpis feugiat dictum. Fusce tempus mi sem, id viverra lectus vestibulum eget.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="py-5 bg-accent-custom">
+    <div class="container py-5">
+      <h2 class="display-4 fw-bold text-center text-dark mb-5">Contacto</h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <form id="contactForm" class="bg-primary-custom rounded-3 shadow-lg p-4">
+            <div class="mb-3">
+              <input type="text" class="form-control form-control-lg" name="nombre" placeholder="Nombre completo" required>
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control form-control-lg" name="email" placeholder="Email" required>
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control form-control-lg" name="website" placeholder="Sitio web (opcional)">
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control form-control-lg" name="presupuesto" placeholder="Presupuesto estimado">
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control form-control-lg" name="tiempo" placeholder="Tiempo estimado">
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control form-control-lg" name="mensaje" rows="5" placeholder="Describe tu proyecto" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark btn-lg w-100 rounded-pill fw-bold">Enviar Mensaje</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-5">
+    <div class="container text-center">
+      <h3 class="mb-3">¡Trabajemos juntos!</h3>
+      <p class="text-white mb-4">¿Tienes un proyecto en mente? Contáctame y hagamos realidad tu idea.</p>
+      
+      <div class="mb-4">
+        <a href="#" class="btn btn-outline-light rounded-circle mx-2" style="width: 50px; height: 50px;">🔗</a>
+        <a href="#" class="btn btn-outline-light rounded-circle mx-2" style="width: 50px; height: 50px;">💼</a>
+        <a href="#" class="btn btn-outline-light rounded-circle mx-2" style="width: 50px; height: 50px;">🐦</a>
+        <a href="#" class="btn btn-outline-light rounded-circle mx-2" style="width: 50px; height: 50px;">📷</a>
+      </div>
+
+      <hr class="bg-secondary">
+      <p class="text-white mb-0">&copy; 2025 Cecilia Ramos Alcatruz - Full Stack Developer. Hecho con CSS, Bootstrap y jQuery</p>
+    </div>
+  </footer>
+
+  <!-- Botón Scroll Top -->
+  <button id="btnScrollTop">↑</button>
+
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  
+  <!-- Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JS Personalizado -->
+    <script src="assets/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+/* Variables de color */
+:root {
+  --primary: #00d9ff;
+  --accent: #59ff00;
+  --dark: #111111;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Navegación Lateral */
+.side-nav {
+  position: fixed;
+  right: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+
+.side-nav a {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #666;
+  border-radius: 50%;
+  margin: 20px 0;
+  transition: all 0.3s;
+}
+
+.side-nav a:hover,
+.side-nav a.active {
+  background: var(--primary);
+  border-color: var(--primary);
+  width: 16px;
+  height: 16px;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+  min-height: 100vh;
+}
+
+.hero-img {
+  width: 100%;
+  max-width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border: 6px solid white;
+}
+
+/* Botón Scroll Top */
+#btnScrollTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background: var(--primary);
+  border: none;
+  border-radius: 50%;
+  color: white;
+  font-size: 24px;
+  display: none;
+  z-index: 999;
+}
+
+/* Colores de sección */
+.bg-primary-custom { background: var(--primary); }
+.bg-accent-custom { background: var(--accent); }
+.text-primary-custom { color: var(--primary); }
+.text-accent-custom { color: var(--accent); }
+
+/* Estilos mínimos para tarjetas */
+.card-hover {
+  transition: transform 0.3s;
+}
+
+.card-hover:hover {
+  transform: translateY(-10px);
+}
+
+/* Ocultar navegación lateral en móvil */
+@media (max-width: 991px) {
+  .side-nav {
+    display: none;
+  }
+}
